@@ -1,0 +1,297 @@
+body{
+    background-color: #dfdfdf;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    background-size: cover; 
+    background-repeat: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    color: rgb(31, 31, 31);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+
+    
+}
+
+
+
+h1{
+    color: #005A8C;
+    font-size: 1.4em;
+    letter-spacing: .1em;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase ;
+    line-height: 50px;
+}
+
+h2{
+    color: #005A8C;
+    letter-spacing: .15em;
+    text-align: center;
+    font-family: 'Archivo Black';
+
+}
+
+h3{
+    color: #005A8C;
+    letter-spacing: .15em;
+    text-align: center;
+    font-family: 'Archivo Black';
+
+}
+
+h4{
+    color: #131313;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.header{
+    display: grid;
+    grid-template-columns: 22vw 50vw 22vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+}
+
+    
+
+
+
+.logo{
+
+        padding: 10px; 
+        width: 30vw;
+        margin: auto;
+        margin-top: 10px;
+        grid-column: 2;
+        grid-row: 1;
+    
+    }
+
+.phone{
+    grid-column: 3;
+    grid-row: 1;        
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 10px;}
+    
+
+
+
+
+
+
+
+.boxtext{
+
+    font-size: 1em;
+}
+
+ 
+
+ 
+.mainbody{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 10px;
+grid-auto-rows: minmax(100px, auto);
+margin-top:0px;
+margin-bottom: 0px;
+background-image: url('plant.jpg') ;
+background-size: 100vw;
+background-repeat: no-repeat;
+background-color: #647c70;
+
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top:0px;
+    background-image: url('thermostat.jpg') ;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+
+    
+    }
+
+
+
+.item{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+
+}
+
+
+
+
+.v1{
+
+    display: block;
+}
+
+
+.v2{
+
+    display: none;
+
+}
+
+iframe{
+    display: block;
+}
+
+
+
+
+
+
+.box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 400px;
+    border-radius:px;
+    background-color: #c2c2c2;
+    box-shadow: 2px 5px 5px  rgba(0, 0, 0, 0.25);
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 6px;
+
+
+}
+
+
+
+
+.copyright{
+
+    text-align: left;
+    font-size: .8em;
+    padding: 10px;
+    color: #6e6e6e;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   .logo{
+
+    width: 50vw;
+    margin-bottom: 0px;
+   }
+
+
+ 
+ .phone{
+     line-height: 0;
+     margin-bottom: 0;
+     margin-top: 0px;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+ }
+
+ .headline{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: normal;
+}
+
+
+
+    h1{
+        font-size: .8em;
+    }
+
+    .box{
+
+        width: 200px;
+
+    
+    
+    }
+
+    .boxtext{
+        font-size: .75em;
+    }
+
+
+
+    .v1{
+
+        display:none ;
+    }
+    
+    
+    .v2{
+    
+        display:block ;
+    
+    }
+
+
+    .copyright{
+
+        font-size: .65em;
+    }
+
+
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    .logo{
+
+        width: 40vw;
+       }
+
+       .phone{
+           font-size: .75em;
+       }
+    
+    h1{
+        font-size: 1em;
+
+    }
+
+}
+
+  @media only screen and (min-width: 1050px) {
+
+        h1{
+            font-size: 2em;
+
+        }
+
+  }
